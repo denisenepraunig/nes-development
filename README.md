@@ -8,6 +8,11 @@ The NES uses the 6502 processor and was programmend in assembly.
 * [Assembly in One Step](http://nesdev.com/6502guid.txt) - This is a nice and short quickstart guide for assembly and I really like the explanation of the different addressing modes. Combine this with the [Easy6502](https://skilldrick.github.io/easy6502/) and you are good to go. 
 * [Programming the 6502](https://archive.org/details/Programming_the_6502_OCR/page/n51/mode/2up) - This is an ebook which you can read online or download about 6502 programming. It is a full fledged book and not a quickstart guide.
 
+# 6502 Opcodes
+The commands for the 6502 are called **opcodes**. An example opcode is ```INX```which increases the value in the X register. Don't worry if this sentence doesn't make sense. After reading [Easy6502](https://skilldrick.github.io/easy6502/) it will make sense 😊.
+* [6502 Opcodes](http://www.6502.org/tutorials/6502opcodes.html)
+* [6502 Opcodes - Instruction Reference](http://www.obelisk.me.uk/6502/reference.html)
+
 # Getting Started NES Development
 * [NES Basics and Our First Game](http://thevirtualmountain.com/nes/2017/03/08/nes-basics-and-our-first-game.html) - assembly and nesasm
 * [Nerdy Nights](https://nerdy-nights.nes.science/) - assembly and nesasm
