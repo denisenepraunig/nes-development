@@ -1,0 +1,82 @@
+# this file is taken from: https://nesrocks.com/blog/nes-homebrew-source-code/#more-412
+# create a new folder inside the Sublime 3 packages folder and call it something like 'ASM'
+# put this file inside it
+# Enjoy :)
+%YAML 1.2
+---
+name: 
+  - ASM 6502 (xkas-plus)
+file_extensions: [asm]
+scope: source.asm
+
+contexts:
+  main:
+    # strings
+    - match: '"'
+      scope: punctuation.definition.string.begin.asm
+      push: double_quoted_string
+
+    # comments
+    - match: ';'
+      scope: punctuation.definition.comment.asm
+      push: line_comment
+
+    # commands
+    - match: '\b(arch|endian|incsrc|incbin|header|org|base|bank|banksize|
+      |warnpc|align|db|dw|dl|dd|fill|fillto|pad|fillbyte|padbyte|define|
+      |table|cleartable|namespace|print)\b'
+      scope: entity.name.xkas-plus.asm
+
+    # commands2
+    - match: '\b(segment|proc|endproc|include)\b'
+      scope: constant.numeric.asm
+
+    # commands3
+    - match: '\b(word|byte|addr|res|lobyte)\b'
+      scope: keyword.control.asm
+
+    # labels and sublabels
+    - match: '.?[\w]+:'
+      scope: entity.name.xkas-plus.asm
+
+
+    # 6502 mnemonics
+    - match: '\b(ADC|AND|ASL|BCC|BCS|BEQ|BIT|BMI|BNE|BPL|BRK|BVC|BVS|CLC
+      |CLD|CLI|CLV|CMP|CPX|CPY|DEC|DEX|DEY|EOR|INC|INX|INY|JMP|
+      |JSR|LDA|LDX|LDY|LSR|NOP|ORA|PHA|PHP|PLA|PLP|ROL|ROR|RTI|
+      |RTS|SBC|SEC|SED|SEI|STA|STX|STY|TAX|TAY|TSX|TXA|TXS|TYA|
+	  |adc|and|asl|bcc|bcs|beq|bit|bmi|bne|bpl|brk|bvc|bvs|clc|
+      |cld|cli|clv|cmp|cpx|cpy|dec|dex|dey|eor|inc|inx|iny|jmp|
+      |jsr|lda|ldx|ldy|lsr|nop|ora|pha|php|pla|plp|rol|ror|rti|
+      |rts|sbc|sec|sed|sei|sta|stx|sty|tax|tay|tsx|txa|txs|tya|if|endif)\b'
+      scope: keyword.control.asm
+
+    # address
+    - match: '\$[0-9a-fA-F]+'
+      scope: string.unquoted.asm
+
+    # binary
+    - match: '\#\%[01]+'
+      scope: constant.numeric.asm
+
+    # hexadecimal
+    - match: '\#\$[0-9a-fA-F]+'
+      scope: constant.numeric.asm
+
+    # common decimal
+    - match: '\b[0-9]+\b'
+      scope: constant.numeric.asm
+
+
+  double_quoted_string:
+    - meta_scope: string.quoted.double.asm
+    - match: '\\.'
+      scope: constant.character.escape.asm
+    - match: '"'
+      scope: punctuation.definition.string.end.asm
+      pop: true
+
+  line_comment:
+    - meta_scope: comment.line.asm
+    - match: $
+      pop: true
