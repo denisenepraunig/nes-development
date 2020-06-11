@@ -14,7 +14,7 @@ The commands for the 6502 are called **opcodes**. An example opcode is ```INX```
 * [6502 Opcodes - Instruction Reference](http://www.obelisk.me.uk/6502/reference.html)
 
 # Getting Started NES Development
-* [NES Basics and Our First Game](http://thevirtualmountain.com/nes/2017/03/08/nes-basics-and-our-first-game.html) - assembly and nesasm
+* [NES Basics and Our First Game](http://thevirtualmountain.com/nes/2017/03/06/getting-started-with-nes-game-development.html) - assembly and nesasm
 * [Nerdy Nights](https://nerdy-nights.nes.science/) - assembly and nesasm
 
 # Videos
