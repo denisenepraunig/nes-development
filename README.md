@@ -12,6 +12,7 @@ The NES uses the 6502 processor and was programmend in assembly.
 The commands for the 6502 are called **opcodes**. An example opcode is ```INX```which increases the value in the X register. Don't worry if this sentence doesn't make sense. After reading [Easy6502](https://skilldrick.github.io/easy6502/) it will make sense 😊.
 * [6502 Opcodes](http://www.6502.org/tutorials/6502opcodes.html)
 * [6502 Opcodes - Instruction Reference](http://www.obelisk.me.uk/6502/reference.html)
+* [Opcodes MNEMONIC](./overview-opcodes-6502-alphabetical.md) - Summary of the meaning behind the opcodes
 
 # Getting Started NES Development
 * [NES Basics and Our First Game](http://thevirtualmountain.com/nes/2017/03/06/getting-started-with-nes-game-development.html) - assembly and nesasm
