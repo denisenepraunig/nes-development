@@ -19,4 +19,4 @@ I found a nice Sublime Text assembly syntax highlighter from [nesrocks.com](http
 ## Sprite Editor
 I am using a Mac and did not setup wine yet. The recommended editor seems to be [YY-CHR](https://www.smwcentral.net/?p=section&a=details&id=22338). 
 
-I am currently doing my first steps with this [online NES Sprite Editor](https://erikonarheim.com/NES-Sprite-Editor/) written in JavaScript which is also open source. You can upload CHR files or create your own files.
+I am currently doing my first steps with this [online NES Sprite Editor](https://erikonarheim.com/NES-Sprite-Editor/) written in JavaScript which is also open source and he [blogged about it](https://erikonarheim.com/posts/nes-sprite-editor). You can upload CHR files or create your own files.
