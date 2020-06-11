@@ -25,6 +25,7 @@ The commands for the 6502 are called **opcodes**. An example opcode is ```INX```
 * [Programming the Nintendo Entertainment System](https://www.youtube.com/watch?v=XT95C4fT6zA) - This is a dry run of a talk and this guy goes over the basics of the NES and assembly and he niecly compares assembly code and with high level language coding. Also the audio examples of the different channels are really cool
 
 # References
+* [NES Programming](https://en.wikibooks.org/wiki/NES_Programming) - Hardware overview, CPU memory addresses, PPU addresses and so on
 * [NES Dev Wiki](http://wiki.nesdev.com/w/index.php/Nesdev_Wiki) - A lot of information about the NES and all its technical details
 
 # Development Setup
