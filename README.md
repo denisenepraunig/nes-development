@@ -23,6 +23,7 @@ The commands for the 6502 are called **opcodes**. An example opcode is ```INX```
 * [How video games were made - part 2: Workflow](https://www.youtube.com/watch?v=Yo7UkkGC1AY) - This video features different consoles and techniques and it is very informative. Really interesting to see the development setup many years ago.
 * [Writing NES games! With Assembly!!](https://www.youtube.com/watch?v=kXbMCKMJXXQ) - This is a very cool overview talk about the NES components you need to know for programming and the excitement of this guy of his first sprite on the screen is really amazing!!
 * [Programming the Nintendo Entertainment System](https://www.youtube.com/watch?v=XT95C4fT6zA) - This is a dry run of a talk and this guy goes over the basics of the NES and assembly and he niecly compares assembly code and with high level language coding. Also the audio examples of the different channels are really cool
+* [Scrolling on the NES](https://www.youtube.com/watch?v=wfrNnwJrujw) - In this video you see how the **nametables** are used when scrolling and how they are mirrored and it also explains the reason behind the flickering (seam) at the right edge of Super Mario Bros. 3. The whole channel has a lot of retro game mechanics explained and is very interesting to watch.
 
 # References
 * [NES Programming](https://en.wikibooks.org/wiki/NES_Programming) - Hardware overview, CPU memory addresses, PPU addresses and so on
