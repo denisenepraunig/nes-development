@@ -1,5 +1,5 @@
 # NES Development
-Ressources for NES development. Currently focusing on assembly language, nesasm and development on Mac.
+Ressources for NES development. Currently focusing on assembly language but looking into C, too, nesasm and development on Mac.
 
 The NES uses the 6502 processor and was programmend in assembly.
 
@@ -15,8 +15,12 @@ The commands for the 6502 are called **opcodes**. An example opcode is ```INX```
 * [Opcodes MNEMONIC](./overview-opcodes-6502-alphabetical.md) - Summary of the meaning behind the opcodes
 
 # Getting Started NES Development
-* [NES Basics and Our First Game](http://thevirtualmountain.com/nes/2017/03/06/getting-started-with-nes-game-development.html) - assembly and nesasm
-* [Nerdy Nights](https://nerdy-nights.nes.science/) - assembly and nesasm
+## Assembly
+* [Nerdy Nights](https://nerdy-nights.nes.science/) - Assembly and nesasm - THE tutorials for getting started with NES development, everybody is refering to them.
+* [NES Basics and Our First Game](http://thevirtualmountain.com/nes/2017/03/06/getting-started-with-nes-game-development.html) - Assembly and nesasm, unfortunatelly stops before it gets really interesting - but it is a great starter
+* [Famicom Party](https://book.famicom.party/) - Another great introdcution into the NES system and assembly. I really hope this series continues.
+## C
+* [NES Doug](https://nesdoug.com/) - I haven't read this series yet as I am focusing on assembly currently, but it looks very promising including a platformer tutorial. It uses the CC65 C compiler.
 
 # Videos
 * [How video games were made - part 1: Graphics](https://www.youtube.com/watch?v=jqyC_S56B3k) - This is a nice overview video about the components of the NES and stuff like pattern tables and alike. Other systems are covered at the end of the video. I highly recommend watching this video!
@@ -24,6 +28,10 @@ The commands for the 6502 are called **opcodes**. An example opcode is ```INX```
 * [Writing NES games! With Assembly!!](https://www.youtube.com/watch?v=kXbMCKMJXXQ) - This is a very cool overview talk about the NES components you need to know for programming and the excitement of this guy of his first sprite on the screen is really amazing!!
 * [Programming the Nintendo Entertainment System](https://www.youtube.com/watch?v=XT95C4fT6zA) - This is a dry run of a talk and this guy goes over the basics of the NES and assembly and he niecly compares assembly code and with high level language coding. Also the audio examples of the different channels are really cool
 * [Scrolling on the NES](https://www.youtube.com/watch?v=wfrNnwJrujw) - In this video you see how the **nametables** are used when scrolling and how they are mirrored and it also explains the reason behind the flickering (seam) at the right edge of Super Mario Bros. 3. The whole channel has a lot of retro game mechanics explained and is very interesting to watch.
+
+# Books
+* [Making Games for the NES](https://www.amazon.com/Making-Games-NES-Steven-Hugg-ebook/dp/B07VVJ15JJ/) - In this book you are using the CC65 C compiler and and [online IDE](http://8bitworkshop.com/) and in the end the book also goes over assembly. I bought it but I haven't read it yet.
+* [Retro Game Dev](https://www.retrogamedev.com/) - Currently there is an [C64 book](https://www.retrogamedev.com/c64edition) available which also uses 6502 assembly. On his website you see that a NES book is in the making. I bought the C64 book to see what I can learn for NES development.
 
 # References
 * [NES Programming](https://en.wikibooks.org/wiki/NES_Programming) - Hardware overview, CPU memory addresses, PPU addresses and so on
