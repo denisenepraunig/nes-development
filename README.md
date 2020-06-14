@@ -47,3 +47,6 @@ I found a nice Sublime Text assembly syntax highlighter from [nesrocks.com](http
 I am using a Mac and did not setup wine yet. The recommended editor seems to be [YY-CHR](https://www.smwcentral.net/?p=section&a=details&id=22338). 
 
 I am currently doing my first steps with this [online NES Sprite Editor](https://erikonarheim.com/NES-Sprite-Editor/) written in JavaScript which is also open source and he [blogged about it](https://erikonarheim.com/posts/nes-sprite-editor). You can upload CHR files or create your own files.
+
+## Online IDE
+[8bitworkshop](https://8bitworkshop.com/) offers an online IDE for various retro systems including the NES and has also books available which I listed in the books section.
