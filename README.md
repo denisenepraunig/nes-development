@@ -33,6 +33,9 @@ The commands for the 6502 are called **opcodes**. An example opcode is ```INX```
 * [Making Games for the NES](https://www.amazon.com/Making-Games-NES-Steven-Hugg-ebook/dp/B07VVJ15JJ/) - In this book you are using the CC65 C compiler and and [online IDE](http://8bitworkshop.com/) and in the end the book also goes over assembly. I bought it but I haven't read it yet.
 * [Retro Game Dev](https://www.retrogamedev.com/) - Currently there is an [C64 book](https://www.retrogamedev.com/c64edition) available which also uses 6502 assembly. On his website you see that a NES book is in the making. I bought the C64 book to see what I can learn for NES development.
 
+# Magazines
+* [Dev Cart](https://www.amazon.com/Dev-Cart-Special-Introductory-Issue/dp/1724948008/) - This magazine focuses on the NES and has interviews with people doing homebrew, they also have development 6502 assembly tutorials (except in the 0th Introductory Issue) and other related NES news.
+
 # References
 * [NES Programming](https://en.wikibooks.org/wiki/NES_Programming) - Hardware overview, CPU memory addresses, PPU addresses and so on
 * [NES Dev Wiki](http://wiki.nesdev.com/w/index.php/Nesdev_Wiki) - A lot of information about the NES and all its technical details
