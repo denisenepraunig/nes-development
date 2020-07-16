@@ -54,3 +54,7 @@ I am currently doing my first steps with this [online NES Sprite Editor](https:/
 
 ## Online IDE
 [8bitworkshop](https://8bitworkshop.com/) offers an online IDE for various retro systems including the NES and has also books available which I listed in the books section.
+
+# Pixel Art
+## Pixel Logic
+There are a lot of great pixel art tutorials and videos out there but I didn't find any comprehensive book which you can use as a reference until I found the [Pixel Logic](https://pixellogicbook.com/) book. It is worth every cent and I can highly recommend it.
