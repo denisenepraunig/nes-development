@@ -72,6 +72,12 @@ My biggest problem while developing on the Mac was using a debugger (Nametables,
 
 However there is hope :-D! I guess since 2021 [FCEUX](http://fceux.com/web/home.html) also has a debugger for the Mac!! You can also install it via [brew](https://formulae.brew.sh/formula/fceux).
 
+## Nesmaker
+If you are using a Windows machine you could have a look into the [nesmaker](https://www.thenew8bitheroes.com). They have a very active Facebook group and have competitions every year. I didn't try to run it on a Mac via Parallels or so. I have a Windows laptop but didn't really have the time for trying it out.
+
 # Pixel Art
 ## Pixel Logic
 There are a lot of great pixel art tutorials and videos out there but I didn't find any comprehensive book which you can use as a reference until I found the [Pixel Logic](https://pixellogicbook.com/) book. It is worth every cent and I can highly recommend it.
+
+## NES Pixel art
+[Nesrocks.com](https://nesrocks.com/blog/nes-graphics/) has a really nice overview about the graphic limitations of the NES.
