@@ -55,6 +55,14 @@ I am currently doing my first steps with this [online NES Sprite Editor](https:/
 ## Online IDE
 [8bitworkshop](https://8bitworkshop.com/) offers an online IDE for various retro systems including the NES and has also books available which I listed in the books section.
 
+## Emulator
+My favorite emulator to play NES games is [openEmu](http://openemu.org). It has also a section for homebrew games were I found this funny [Lawn Mower Game](https://retroachievements.org/game/12819).
+
+## Debugger
+My biggest problem while developing on the Mac was using a debugger (Nametables, PPU Viewer and alike). On Windows you would use [Mesen](https://www.mesen.ca) for that. On the Mac I first stubmled upon [Nintaco](https://nintaco.com/screenshots.html) but somehow it didn't go that well, like everything was frozen, maybe it was just my mistake in using it.
+
+However there is hope :-D! I guess since 2021 [FCEUX](http://fceux.com/web/home.html) also has a debugger for the Mac!! You can also install it via [brew](https://formulae.brew.sh/formula/fceux).
+
 # Pixel Art
 ## Pixel Logic
 There are a lot of great pixel art tutorials and videos out there but I didn't find any comprehensive book which you can use as a reference until I found the [Pixel Logic](https://pixellogicbook.com/) book. It is worth every cent and I can highly recommend it.
