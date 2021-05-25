@@ -22,6 +22,11 @@ The commands for the 6502 are called **opcodes**. An example opcode is ```INX```
 ## C
 * [NES Doug](https://nesdoug.com/) - I haven't read this series yet as I am focusing on assembly currently, but it looks very promising including a platformer tutorial. It uses the CC65 C compiler.
 
+## ROM hacking
+Another fun way to start your NES development can be ROM hacking. You learn some basics about how the NES works and you learn how to use the tools like viewing sprites or nametables. John Riggs has a [YouTube series](https://www.youtube.com/playlist?list=PLsOTz-tlvayLmYmgreE4q1w0E6rN29T4p) and teaches you the basics about hacking ROMS for the NES.
+
+Just look at how many ROM hacks are available for Super Mario Bros at [romhacking.net](https://www.romhacking.net/games/709/). Just some suble [graphics and color changes](https://www.romhacking.net/hacks/5927/) can give the whole game a new look.
+
 # Videos
 * [How video games were made - part 1: Graphics](https://www.youtube.com/watch?v=jqyC_S56B3k) - This is a nice overview video about the components of the NES and stuff like pattern tables and alike. Other systems are covered at the end of the video. I highly recommend watching this video!
 * [How video games were made - part 2: Workflow](https://www.youtube.com/watch?v=Yo7UkkGC1AY) - This video features different consoles and techniques and it is very informative. Really interesting to see the development setup many years ago.
